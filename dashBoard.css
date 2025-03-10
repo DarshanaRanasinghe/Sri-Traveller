@@ -1,0 +1,53 @@
+
+body{
+  font-family: "Dosis";
+  margin: none;
+}
+header {
+  font-family: Oswald;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 150px;
+  background-color: rgb(184, 255, 246);
+  
+  
+
+  
+}
+.logo{
+
+}
+.logo img {
+  height: 150px;
+ 
+  
+}
+
+.userAndGuide {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  height: 150px;  
+ 
+  top: 10px; /* Adjust distance from the top */
+  right: 20px; 
+ 
+}
+
+.userAndGuide button {
+  padding: 8px 12px;
+  height: 40px;
+  border: none;
+  background-color: #ebf566;
+  color: rgb(10, 10, 10);
+  cursor: pointer;
+  border-radius: 5px;
+  
+  
+}
+
+.userAndGuide button:hover {
+  background-color: #0056b3;
+}
