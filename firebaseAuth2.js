@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-// Login function
+
 function logIn() {
     const email = document.getElementById("txtEmail").value;
     const password = document.getElementById("txtPass").value;
@@ -46,6 +46,7 @@ function logIn() {
             const user = userCredential.user;
             alert("Login successful! Welcome, " + user.email);
             console.log("User logged in:", user);
+            window.location.href = "guideDashboard.html";
         })
         .catch((error) => {
             alert("Error: " + error.message);
